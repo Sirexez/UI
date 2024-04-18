@@ -8,7 +8,7 @@ local RayFieldQuality = {}
 local RayfieldLibrary = {
 	Flags = {},
 	Theme = {
-		Default = {
+				Default = {
 			TextFont = "Default", -- Default will use the various font faces used across Rayfield
 			TextColor = Color3.fromRGB(240, 240, 240),
 
@@ -31,14 +31,14 @@ local RayfieldLibrary = {
 			ElementStroke = Color3.fromRGB(50, 50, 50),
 			SecondaryElementStroke = Color3.fromRGB(40, 40, 40), -- For labels and paragraphs
 
-			SliderBackground = Color3.fromRGB(255, 217, 0),
-			SliderProgress = Color3.fromRGB(255, 217, 0),
-			SliderStroke = Color3.fromRGB(255, 234, 0),
+			SliderBackground = Color3.fromRGB(52, 0, 94),
+			SliderProgress = Color3.fromRGB(57, 0, 127),
+			SliderStroke = Color3.fromRGB(13, 0, 24),
 
 			ToggleBackground = Color3.fromRGB(30, 30, 30),
-			ToggleEnabled = Color3.fromRGB(216, 162, 1),
+			ToggleEnabled = Color3.fromRGB(57, 0, 127),
 			ToggleDisabled = Color3.fromRGB(100, 100, 100),
-			ToggleEnabledStroke = Color3.fromRGB(236, 189, 0),
+			ToggleEnabledStroke = Color3.fromRGB(13, 0, 24),
 			ToggleDisabledStroke = Color3.fromRGB(125, 125, 125),
 			ToggleEnabledOuterStroke = Color3.fromRGB(100, 100, 100),
 			ToggleDisabledOuterStroke = Color3.fromRGB(65, 65, 65),
